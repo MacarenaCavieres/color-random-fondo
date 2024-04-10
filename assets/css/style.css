@@ -19,6 +19,10 @@ main {
     align-items: center;
     justify-content: center;
     align-content: center;
+    background-color: #ffffff;
+    padding: 40px;
+    border: solid 2px #000000;
+    border-radius: 10px;
 }
 
 .container {
@@ -33,11 +37,15 @@ button {
     width: 100px;
     height: 40px;
     margin-top: 20px;
-    border: solid 1px white;
+    border: solid 1px #ffffff;
     border-radius: 8px;
     background-color: #1679ab;
-    color: white;
+    color: #ffffff;
     font-size: 20px;
     font-family: "Inconsolata", monospace;
     cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
 }
